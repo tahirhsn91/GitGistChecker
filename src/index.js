@@ -1,13 +1,13 @@
+import './index.css';
+import 'antd/dist/antd.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Shell from './container/shell'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<Shell />,
   document.getElementById('root')
 );
 
